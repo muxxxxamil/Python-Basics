@@ -174,7 +174,11 @@ class BasicAlgorithms:
                 shift = max(shift, skip_gs)
             i += shift
         return occurrences    
+    
+    
+    # Shortest path searching
     # Graph shortest path between nodes
+    
     # time complexity to Θ ( | E | + | V | log ⁡ | V | ) in worst case
     def dijkstra(self, aGraph, start, target):
         print ('''Dijkstra's shortest path Algorithm''')
