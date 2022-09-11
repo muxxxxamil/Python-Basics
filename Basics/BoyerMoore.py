@@ -1,5 +1,5 @@
 import string
-
+# Reference : https://www.cs.jhu.edu/~langmea/resources/lecture_notes/04_boyer_moore_v2.pdf
 class BoyerMoore(object):
     #""" Encapsulates pattern and associated Boyer-Moore preprocessing. """
     
